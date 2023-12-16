@@ -1,8 +1,42 @@
-/*
-Comment
-*/
-
-h1 {
-    font-family: 'TH SarabunPSK', Arial , sans-serif;
-    font-size: 36pt;
+body{
+    color: rgb(83, 61, 38);
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(241, 223, 162);
+}
+.box{
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    width: 400px;
+    height: 400px;
+    background-color:rgb(1, 0, 2);
+    background-image: linear-gradient(rgb(122, 180, 238),rgb(199, 151, 238),pink);
+    border: 5px dashed lemonchiffon;
+    padding-top: 10px;
+    margin: 50px 25px;
+    box-shadow:rgb(252, 185, 0)0px 0px 10px;
+}
+.text{
+    position: relative;
+    font-size: 28px;
+    line-height: 24px ;
+    color: lemonchiffon;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-300%);
+    
+}
+.box:hover{
+    background-image: url('https://tonsofthanks.com/wp-content/uploads/2023/03/Thank-You-Cat-Meme-2-1024x1024.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 5px dashed rgb(0, 0, 0);
+    transform: scale(1.5);
+    box-shadow: 15px 20px 5px;
+    .text{
+        font-size: 0px;
+    }
 }
