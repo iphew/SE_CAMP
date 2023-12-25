@@ -10,17 +10,13 @@
         <div class="title">
             <h1>MULTIPLICATION TABLE</h1>
         </div>
-        
         <div class="top">
-            
-        <div class="row">
             <?php
             for($i = 1; $i <= 24; $i++){
                 echo "2 x ".$i." = ". 2*$i;
                 echo "<br>";
             }
             ?>
-        </div>
         </div>
     </div>
     <style>
